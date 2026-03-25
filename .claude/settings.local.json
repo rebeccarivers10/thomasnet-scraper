@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(taskkill.exe //F //IM python.exe)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(netstat -ano)",
+      "Bash(taskkill.exe //F //PID 10400 //PID 13344 //PID 19868)",
+      "Bash(taskkill.exe //F //PID 35572)",
+      "Bash(python -c \"from app import app; from scraper import enrich_contact; print\\(''OK''\\)\")",
+      "Bash(\"C:/Users/rebecca.rivers/AppData/Local/Python/bin/python.exe\" -c \"from app import app; from scraper import enrich_contact; print\\(''OK''\\)\")",
+      "Bash(\"C:/Users/rebecca.rivers/AppData/Local/Python/bin/python.exe\" -c \":*)",
+      "Bash(taskkill.exe //F //PID 17604)",
+      "Bash(xargs -r -I{} taskkill.exe //F //PID {})",
+      "Bash(dir /b)",
+      "Bash(git --version)",
+      "Bash(gh --version)"
+    ]
+  }
+}

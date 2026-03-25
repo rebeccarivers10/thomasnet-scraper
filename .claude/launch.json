@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "thomasnet-scraper",
+      "runtimeExecutable": "C:/Users/rebecca.rivers/AppData/Local/Python/bin/python.exe",
+      "runtimeArgs": ["app.py"],
+      "port": 5000,
+      "autoPort": false
+    }
+  ]
+}
